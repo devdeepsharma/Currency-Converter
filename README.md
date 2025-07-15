@@ -1,41 +1,23 @@
 # 🪙 Currency‑Converter
 
-A simple and efficient CLI (and/or web) tool to convert currencies using live exchange rates.
+**Fast | Modular | Real‑Time**
+
+Convert between any two fiat currencies using live exchange rates. Supports a clean CLI interface—and easy-to-add Web UI. Built with extensibility in mind: swap API providers, add caching/history, and more.
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green)](#license) [![npm version](https://img.shields.io/npm/v/currency-converter)](#)
 
 ---
 
-## 🚀 Features
+### 🎯 What It Does
 
-- Convert between any two fiat currencies (e.g., USD to INR) via the command line or web UI  
-- Fetch accurate, up-to-date rates from a public API  
-- Modular architecture, making it easy to add offline caching, alternative providers, or historical data support  
-
----
-
-## 📦 Table of Contents
-
-1. [Demo](#demo)  
-2. [Installation](#installation)  
-3. [Usage](#usage)  
-   - CLI  
-   - Web UI (if applicable)  
-4. [Configuration](#configuration)  
-5. [Examples](#examples)  
-6. [Development](#development)  
-7. [Contributing](#contributing)  
-8. [License](#license)  
+- Fetches current exchange rates from your chosen provider (e.g., exchangerate.host)
+- Converts amounts instantly via CLI (or Web UI)
+- Designed for extensibility: pluggable API modules, caching, historical support
 
 ---
 
-## 📸 Demo
+### 📸 Quick Demo
 
-> *Insert GIF or screenshot showing a conversion (e.g., `100 USD → EUR`)*
-
----
-
-## 🔧 Installation
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/devdeepsharma/Currency-Converter.git
-   cd Currency-Converter
+```bash
+node index.js --from USD --to EUR --amount 100
+# 💱 100 USD = 92.45 EUR (Rate: 0.9245)
