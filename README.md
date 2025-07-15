@@ -1,23 +1,31 @@
-# 🪙 Currency‑Converter
+# Currency-Converter 💱
 
-**Fast | Modular | Real‑Time**
-
-Convert between any two fiat currencies using live exchange rates. Supports a clean CLI interface—and easy-to-add Web UI. Built with extensibility in mind: swap API providers, add caching/history, and more.
-
-[![MIT License](https://img.shields.io/badge/license-MIT-green)](#license) [![npm version](https://img.shields.io/npm/v/currency-converter)](#)
+A simple and intuitive currency converter desktop/web app built with Swift & VIPER architecture (Swift 4.2). It fetches live exchange rates and provides instant, seamless conversions.
 
 ---
 
-### 🎯 What It Does
+## Features
 
-- Fetches current exchange rates from your chosen provider (e.g., exchangerate.host)
-- Converts amounts instantly via CLI (or Web UI)
-- Designed for extensibility: pluggable API modules, caching, historical support
+- ✅ Real-time foreign exchange rates  
+- 🌍 Support for multiple currencies  
+- 📱 Clean, responsive UI with native Swift design  
+- 🏛 Built using VIPER architecture for better code modularity and testability  
+- 🔧 Easy to extend and maintain  
 
 ---
 
-### 📸 Quick Demo
+## Demo
 
-```bash
-node index.js --from USD --to EUR --amount 100
-# 💱 100 USD = 92.45 EUR (Rate: 0.9245)
+Add a screenshot or demo GIF here:
+
+![App Screenshot](./Assets/demo.png)
+
+---
+
+
+## Setup & Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/devdeepsharma/Currency-Converter.git
+   cd Currency-Converter
