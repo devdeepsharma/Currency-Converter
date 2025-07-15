@@ -18,7 +18,7 @@ A simple and intuitive currency converter desktop/web app built with Swift & VIP
 
 Add a screenshot or demo GIF here:
 
-![App Screenshot](./Assets/demo.png)
+![App Screenshot](./Screenshot%202025-07-15%20172358.png)
 
 ---
 
